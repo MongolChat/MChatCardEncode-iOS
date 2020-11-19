@@ -7,8 +7,6 @@ Source дотор байгаа Файлуудыг өөрийн Project-дээ н
 
 ### Яаж хэрэглэх вэ?
 
-Хамгийн түрүүнд тохиргоог хийх хэрэгтэй. Тохиргоо хийгээгүй үед Exception заахыг анхаарна уу!
-
 ```objc
  NSString *cardNumber = @"9496123412341234";
  NSString *encryptedString = [[number dataUsingEncoding:NSUTF8StringEncoding] encryptPKCS1ForTokenEx];;
